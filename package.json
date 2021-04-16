@@ -1,0 +1,22 @@
+{
+  "name": "ictf",
+  "version": "1.0.0",
+  "description": "Bot for Icognito Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3scava1i3r/ICTF.git"
+  },
+  "author": "3scava1i3r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3scava1i3r/ICTF/issues"
+  },
+  "homepage": "https://github.com/3scava1i3r/ICTF#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
