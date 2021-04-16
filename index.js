@@ -1,7 +1,7 @@
 const { Client, RichEmbed } = require("discord.js");
 const bot = new Client();
 
-const token = "ODMyNjIzMDgwMTgyNTEzNzI1.YHmeqw.XpBjrVhsQfuabNXkQqWrvPspltk";
+const tkn = process.env.token;
 
 const PREFIX = "=";
 
@@ -21,7 +21,7 @@ bot.on("message", (message) => {
   }
 });
 
-bot.login(token);
+bot.login(tkn);
 
 
 // ICTF{Fl4g_F0und_0n_Di5c0rd}
